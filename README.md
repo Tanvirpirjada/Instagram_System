@@ -30,9 +30,9 @@ In controller class there is Mehtods based on request ex getdata method for get 
 
 ->get user by age : http://localhost:8080/getbyage
 
-->Update user: http://localhost:8080/updateuser
+->Update user: http://localhost:8080/updateuser/{user_id}
 
-->Delete user: http://localhost:8080/deleteuser
+->Delete user: http://localhost:8080/deleteuser/{user_id}
 
 * for  Post Class 
 
@@ -40,7 +40,7 @@ In controller class there is Mehtods based on request ex getdata method for get 
 
 -> get post :  http://localhost:8080/getpost
 
--> delete post : http://localhost:8080/updatepost
+-> delete post : http://localhost:8080/updatepost/{post_id}
 
--> update post : http://localhost:8080/deletepost
+-> update post : http://localhost:8080/deletepost/{post_id}
 
