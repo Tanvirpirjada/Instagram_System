@@ -17,7 +17,6 @@ import java.sql.Timestamp;
 @RestController
 public class Postcontroller {
 
-
     @Autowired
     IUserrepository userrepository;
     @Autowired
